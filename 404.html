@@ -6,14 +6,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>404 | ViralizeIt - The Future of Video Optimization</title>
-<link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
+<link rel="icon" href="images/favicon.ico"><link href="style.css" rel="stylesheet"></head>
 <body x-data="{ page: '404', 'loaded': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }">
 
 <header class="fixed left-0 top-0 w-full z-9999 py-7 lg:py-0" :class="{ 'bg-dark/70 backdrop-blur-lg shadow !py-4 lg:!py-0 transition duration-100 before:absolute before:w-full before:h-[1px] before:bottom-0 before:left-0 before:features-row-border' : stickyMenu }" @scroll.window="stickyMenu = (window.scrollY > 0) ? true : false">
 <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0 lg:flex items-center justify-between relative">
 <div class="w-full lg:w-1/4 flex items-center justify-between">
 <a href="index.html">
-<img src="images/logo.svg" alt="Logo" />
+<img src="images/logo.png" style="width: 40%;" class="gap-2 py-15" alt="Logo" />
 </a>
 
 <button class="lg:hidden block" @click="navigationOpen = !navigationOpen">
